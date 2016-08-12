@@ -85,7 +85,7 @@ let mike = {
     { name: 'Deisel', age: 1 }
   ],
   averagePetAge: function() {
-    var getSum = () => {
+    let getSum = () => {
       let sum = 0;
       this.pets.forEach( (pet) => sum += pet.age );
       return sum;
@@ -118,10 +118,10 @@ console.log(sum(1, 2));
 ## String Interpolation
 
 ```javascript
-var customer = { name: "Foo" }
-var card = { amount: 7, product: "Bar", unitprice: 42 }
+let customer = { name: "Foo" }
+let card = { amount: 7, product: "Bar", unitprice: 42 }
 
-var message =
+let message =
   `  Hello ${ customer.name},
        - want to buy ${card.amount} ${card.product} for
        - a total of ${card.amount * card.unitprice} bucks?`
@@ -171,7 +171,7 @@ class Pet {
   }
 }
 
-var miko = new Pet('Miko', 3);
+let miko = new Pet('Miko', 3);
 console.log(miko.toString());
 miko.birthday();
 console.log(miko.toString());
