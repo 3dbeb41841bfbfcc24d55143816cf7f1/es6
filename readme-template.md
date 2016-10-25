@@ -1,26 +1,10 @@
-<!--
-This file is auto-generated from a 'template.md'
-file using the 'md-process' script.
-Therefore *DO NOT* edit this file directly!
-Instead edit 'template.md' and then run 'md-process'.
--->
-
 # Introduction to ECMAScript 6
 
 The 6th edition of ECMAScript, officially known as ECMAScript 2015, was finalized in June 2015. This update adds significant new syntax for writing complex applications, including classes and modules. Other new features include iterators and for/of loops, Python-style generators and generator expressions, arrow functions, binary data, typed arrays, collections (maps, sets and weak maps), promises, number and math enhancements, reflection, and support for metaprogramming.
 
 In this lesson we are going to look at some of the more popular features of ES6.
 
-## Table of Contents
-
-* [Constants](#constants)
-* [Let](#let)
-* [Arrow Functions](#arrow-functions)
-* [Default Parameter Values](#default-parameter-values)
-* [String Interpolation](#string-interpolation)
-* [Property Shorthand](#property-shorthand)
-* [Classes](#classes)
-* [Resources](#resources)
+{{TOC}}
 
 ## Constants
 
